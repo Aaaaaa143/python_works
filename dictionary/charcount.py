@@ -1,0 +1,2 @@
+text="ABAACCBB"
+#character count

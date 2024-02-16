@@ -1,0 +1,85 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: rgb(57, 55, 55);
+}
+
+
+.parent{
+    width: 90%;
+    min-height: 200px;
+    /* border: 1px solid black; */
+    
+
+}
+.row{
+    width: 100%;
+    min-height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+    margin-left: 0;
+    background-color: beige;
+}
+.col{
+    width: 70%;
+    height: 60%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: rgba(247, 245, 242, 0.616);
+    margin-left: 30px;
+
+}
+.box{
+    width: 350px;
+    height: 100px;
+    border: 5px solid grey;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.header{
+    color: orange;
+}
+.body-content{
+    margin-left: 20px;
+}
+.footer{
+    margin-top: 10px;
+    padding: 10px;
+}
+button{
+    border: none;
+    padding: 10px;
+    border-radius: 3px;
+}
+.price-button{
+    background-color: grey;
+    color: white;
+}
+.buy-button{
+    background-color: rgb(211, 214, 18);
+    color: white;
+    margin-left: 100px;
+}
+.box1{
+    background-color: red;
+}
+.box2{
+    background-color: violet;
+}
+.box3{
+    background-color: blue;
+}
+.box4{
+    background-color: rgb(85, 214, 239);
+}
+h4{
+    margin-left: 20px;
+}

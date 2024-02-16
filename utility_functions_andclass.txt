@@ -1,0 +1,21 @@
+print() => display message in console
+          print("msg",end="\n" {by default} or for tab "\t")
+
+input() => read a value from console
+
+type() => to return or check datatype of an object
+
+range(start,end,step) => return the sequence of values from start to end-1.by default step=1.
+eg:> range(1,6)=(1,2,3,4,5) 
+
+
+all utility functions and classes are  deefined in "builtins.py"
+
+to define a function => " def "
+
+  def  function_name(parmeters..):
+      function_body
+      return value
+
+
+string is defined using 'string',"string","""string"""(used when  there are multiple lines)

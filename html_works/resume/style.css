@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@100&display=swap');
+
+*{
+    margin: 0;
+}
+body{
+    background-color: rgb(226, 226, 226);
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.row{
+    width: 90%;
+    min-height: 700px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 10px;
+    font-family: "Roboto", sans-serif;;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    
+}
+
+.child{
+    background-color: white;
+    box-shadow: 0px 0px 10px 2px gray;
+    padding-bottom: 20px;
+}
+.main{
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.img{
+    width: 100%;
+    height: 280px;
+    position: relative;
+}
+.img .name{
+    color: white;
+    position: absolute;
+    bottom: 0;
+    left: 5%;
+}
+progress{
+    width: 95%;
+    border-radius: 7px; 
+    margin-top: 5px;  
+    background-color:#757575;
+}
+.prg-bar p{
+    margin-bottom: 5px;
+    margin-top: 2px;
+    
+}
+.prg-bar .percentage{
+    position: relative;
+    bottom: 18px;
+    left: 45%;
+    color: rgb(255, 253, 253);  
+    font-weight: bold; 
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    margin-top: 15px;
+    color: #757575;
+}
+p{
+    margin-top: 20px;
+    font-size: medium;
+}
+i{
+    padding-right: 15px;
+    color: #009688;
+
+}
+hr{
+    margin-top: 20px;
+    margin-right: 20px;
+    opacity: .2;
+    border-top-width: 0px;
+}
+.head p{
+    font-size: xx-large;
+}
+.body p{
+    color: #757575;
+}
+.body{
+    padding-left: 20px;
+}
+
+.details-body .year{
+    color: #009688;
+    font-size: medium;
+    margin-bottom: 15px;
+
+}
+.details-body .about{
+    color: black;
+    padding-right: 50px;
+}
+.larger{
+    color: #757575;
+    font-family:"Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}

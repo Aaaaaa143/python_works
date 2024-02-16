@@ -1,0 +1,14 @@
+.row{
+    width: 80%;
+    height: 400px;
+    background-color: aqua;
+}
+.col{
+    width: 50%;
+    height: 200px;
+    background-color: red;
+}
+body{
+    background-color: black;
+    color: white;
+}

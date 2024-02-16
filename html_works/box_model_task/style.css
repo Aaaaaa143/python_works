@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+}
+.box{
+    width: 200px;
+    height: 100px;
+    background-color: aqua;
+    color: black;
+    border: 3px solid black;
+}
+.box-one{
+    margin-left:720px ;
+    margin-top: 80px;
+}
+.box-two{
+    margin-left: 720px;
+    margin-top: 600px;
+}

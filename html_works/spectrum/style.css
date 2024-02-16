@@ -1,0 +1,120 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+
+*{
+    margin: 0;
+}
+
+.main-head{
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Dela Gothic One', sans-serif;
+
+}
+.row-one{
+    margin-top: 30px;
+    width:50% ;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.col-one{
+    width: 18%;
+    height: 200px;
+    float: left;
+    margin-left: 10px;
+
+}
+.row-one .col-one:nth-child(1){
+    background-color: #264653;
+}
+.row-one .col-one:nth-child(2){
+    background-color:#E76F51 ;
+}
+.row-one .col-one:nth-child(3){
+    background-color: blue;
+}
+.row-one .col-one:nth-child(4){
+    background-color:brown;
+}
+.row-one .col-one:nth-child(5){
+    background-color: green;
+}
+
+.row-two{
+    margin-top: 20px;
+    width: 85%;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.col-two{
+    width: 13%;
+    height: 200px;
+    float: left;
+    margin-left: 10px;
+}
+.row-two .col-two:nth-child(1){
+    background-color: darkmagenta;
+}
+.row-two .col-two:nth-child(2){
+    background-color: #780000;
+}
+.row-two .col-two:nth-child(3){
+    background-color: #1D2D44;
+}
+.row-two .col-two:nth-child(4){
+    background-color: #3A5A40;
+}
+.row-two .col-two:nth-child(5){
+    background-color: #DAD7CD;
+}
+.row-two .col-two:nth-child(6){
+    background-color: #A2D2FF;
+}
+.row-two .col-two:nth-child(7){
+    background-color: #E9C46A;
+}
+
+.row-three{
+    width: 95%;
+    height: 200px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.col-three{
+    float: left;
+    width: 10%;
+    height: 200px;
+    margin-left: 13px;
+}
+.row-three .col-three:nth-child(1){
+    background-color:#E63946 ;
+}
+.row-three .col-three:nth-child(2){
+    background-color:#1D3557 ;
+}
+.row-three .col-three:nth-child(3){
+    background-color:#FFBE0B ;
+}
+.row-three .col-three:nth-child(4){
+    background-color:#8338EC ;
+}
+.row-three .col-three:nth-child(5){
+    background-color:#FF006E;
+}
+.row-three .col-three:nth-child(6){
+    background-color:#FB5607 ;
+}
+.row-three .col-three:nth-child(7){
+    background-color:#023E8A ;
+}
+.row-three .col-three:nth-child(8){
+    background-color:#4A5759 ;
+}
+.row-three .col-three:nth-child(9){
+    background-color:#EDAFB8 ;
+}

@@ -1,0 +1,32 @@
+/* basic selectors tagname,id,class */
+
+body{
+
+    background-color: black;
+}
+
+h1{
+    color: white;
+    text-decoration: underline;
+    /* text-decoration: overline; */
+    /* text-decoration: line-through; */
+    text-align: center;
+}
+
+/* id selector # */
+#id_main{
+
+    color: aquamarine;
+}
+/* class selector . */
+.p-danger{
+    color: red;
+    border-width: 2px;
+    border-style: solid;
+    border-color: red;
+}
+.p-primary{
+    color: blue;
+    border: 2px solid blue;
+    
+}

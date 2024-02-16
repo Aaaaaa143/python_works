@@ -1,0 +1,14 @@
+body{
+    background-color: cornflowerblue;
+}
+.parent{
+    width: 80%;
+    height: 400px;
+    background-color: yellow;
+}
+
+.child{
+    width: 50%;
+    height: 200px;
+    background-color: aqua;
+}

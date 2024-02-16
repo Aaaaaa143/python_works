@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register form</title>
+</head>
+<body>
+    <h2>Registration Form</h2>
+
+    <form action="">
+        <!--label=>to display the placeholder-->
+        <!--input=> for user to enter the value (type=text,email,number,password,date)-->
+        <div>
+            <label for="id_name">name</label>
+            <input type="text" placeholder="your name" id="id_name">
+        </div>
+
+        <div>
+            <label for="id_email">email</label>
+            <input type="email" placeholder="your email" id="id_email">
+        </div>
+
+        <div>
+            <label for="id_pwd">password</label>
+            <input type="password"  id="id_pwd">
+        </div>
+
+        <div>
+            <label for="id_phone">phone number</label>
+            <input type="text" placeholder="enter number" id="id_phone">
+        </div>
+
+        <div>
+            <label for="">gender</label>
+            <label for="">male</label><input type="radio" name="gender">
+            <label for="">female</label><input type="radio" name="gender">
+        </div>
+            <!--optin=>for dropdwon options  -->
+        <div>
+            <label for="">Select Language</label>
+            <select name="" id="">
+                <option value="">java</option>
+                <option value="">c</option>
+                <option value="">c++</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="id_zip">zipcode</label>
+            <input type="text" id="id_zip">
+
+        </div>
+
+        <div>
+            <label for="id_about">about</label>
+            <textarea name="" id="id_about" cols="30" rows="10"></textarea>
+        </div>
+
+        <div>
+            
+            <label for="">Education</label>
+            <input type="checkbox"><label for="">bca</label>
+            <input type="checkbox"><label for="">bba</label>
+            <input type="checkbox"><label for="">mca</label>
+            <input type="checkbox"><label for="">mba</label>
+
+        </div>
+
+        <input type="submit" value="register">
+
+    </form>
+</body>
+</html> 
